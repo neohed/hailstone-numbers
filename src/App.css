@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.App div {
+  float: left;
+  margin: 16px;
+  cursor: pointer;
+}
+
+.full {
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  box-shadow: 10px 10px 5px grey;
+  border: 1px solid darkgray;
+
+  /**/
+  z-index: 100;
+}
